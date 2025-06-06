@@ -1,4 +1,5 @@
-Advantages: 
+**REACT AGENTS**
+* Advantages: 
 ReACT agents are flexible, i.e any state is possible   -  Usees tools according to the problem,
 
 Disadvantages:
@@ -12,7 +13,7 @@ Flexibility also means less reliability
 
 
 **LANGGRAPH**
-A framework for building controllable  persistent agent workflow with built in support for human interaction, streaming and state management.
+* A framework for building controllable  persistent agent workflow with built in support for human interaction, streaming and state management.
 * Key features of langgraph
 1) Looping and Branching Capabilities
 2) State Persistance
@@ -52,4 +53,5 @@ Types of Reflection agents
 
 
 3) Language agent tree search (LATS)
+
 
