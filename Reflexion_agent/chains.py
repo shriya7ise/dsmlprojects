@@ -39,7 +39,13 @@ first_responder_prompt_template = actor_prompt_template.partial(
 )
 
 first_responder_chain = first_responder_prompt_template | llm.bind_tools(
-    tools = [AnswerQuestion], tool_choice='AnswerQuestion') | pydantic_parser
+    tools = [AnswerQuestion], tool_choice='AnswerQuestion') 
+#The above chain will not generate an ai message, due to pydantic_parser.
+#to generate ai message just seperate the llm.bind_tools() and pydantic_parser.
+
+validator = PydanticToolsParser(
+    tools=[AnswerQuestion]
+)
 
 
 #REVISOR SECTION
@@ -54,7 +60,7 @@ revise_instructions = """"Revise your previous answer using the new
                         - You should use the previous critique to remove superfluous information from your answer and make SURE 
                         it is not more than 250 words."""
                         
-revisor_prompt_template = actor_prompt_template.partial(
+revisor_chain = actor_prompt_template.partial(
     first_instruction= revise_instructions
 ) | llm.bind_tools(
     tools = [ReviseAnswer], tool_choice='ReviseAnswer')
