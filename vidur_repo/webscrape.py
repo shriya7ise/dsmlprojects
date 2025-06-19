@@ -12,12 +12,12 @@ class IPONewsAPI:
         # Free news APIs (replace with your API keys)
         self.news_apis = {
             'newsapi': {
-                'key': '89d1452cc28b48f091975f77b1a28e90',  # Get from newsapi.org
+                'key': 'newsapi',  # Get from newsapi.org
                 'base_url': 'https://newsapi.org/v2/everything',
                 'params': {'pageSize': 5, 'sortBy': 'publishedAt'}
             },
             'gnews': {
-                'key': 'aa6852910b0bb6186ea46ed339ccaa63',  # Get from gnews.io
+                'key': 'gnews',  # Get from gnews.io
                 'base_url': 'https://gnews.io/api/v4/search',
                 'params': {'max': 5, 'lang': 'en'}
             }
