@@ -1,0 +1,198 @@
+2025-06-21 10:23:09,911 - INFO - Loaded 41 companies from /Users/shriya/Documents/GitHub/logo_detect/dsmlprojects222/List_IPO.csv
+2025-06-21 10:23:09,912 - INFO - Created new news database: company_news_database.csv
+2025-06-21 10:23:09,913 - INFO - Querying news for: Ajax Engineering Limited
+2025-06-21 10:23:09,913 - INFO - Match found: {'COMPANY NAME': 'Ajax Engineering Limited', 'SECURITY TYPE': 'EQ', 'ISSUE PRICE': 629, 'Symbol': 'AJAXENGG', 'ISSUE START DATE': '10-FEB-2025', 'ISSUE END DATE': '12-FEB-2025', 'PRICE RANGE': 'Rs.599 to Rs.629', 'DATE OF LISTING': '17-FEB-2025', 'matched_query': 'Ajax Engineering Limited', 'match_score': 1.0}
+2025-06-21 10:23:09,913 - INFO - Search terms: ['ajax engineering limited', 'ajax engineering', 'ajax engineering limited ipo']
+2025-06-21 10:23:09,913 - INFO - Scraping moneycontrol for Ajax Engineering Limited
+2025-06-21 10:23:09,913 - INFO - Trying: https://www.moneycontrol.com/news/tags/ajax-engineering-limited.html
+2025-06-21 10:23:10,325 - INFO - Found 90 article links
+2025-06-21 10:23:14,659 - INFO - Trying: https://www.moneycontrol.com/news/tags/ajax-engineering.html
+2025-06-21 10:23:15,001 - INFO - Found 90 article links
+2025-06-21 10:23:18,484 - INFO - Trying: https://www.moneycontrol.com/news/tags/ajax-engineering-limited-ipo.html
+2025-06-21 10:23:18,868 - INFO - Found 90 article links
+2025-06-21 10:23:22,357 - INFO - Found 3 articles from moneycontrol
+2025-06-21 10:23:24,363 - INFO - Scraping livemint for Ajax Engineering Limited
+2025-06-21 10:23:24,364 - INFO - Trying: https://www.livemint.com/search?q=ajax-engineering-limited
+2025-06-21 10:23:24,730 - INFO - Found 46 article links
+2025-06-21 10:23:28,409 - INFO - WebDriver initialized
+2025-06-21 10:23:38,286 - INFO - Trying: https://www.google.com/search?q=site:livemint.com ajax-engineering-limited
+2025-06-21 10:23:38,564 - INFO - Found 0 article links
+2025-06-21 10:23:39,569 - INFO - Trying: https://www.livemint.com/search?q=ajax-engineering
+2025-06-21 10:23:39,850 - INFO - Found 46 article links
+2025-06-21 10:23:48,220 - INFO - Trying: https://www.google.com/search?q=site:livemint.com ajax-engineering
+2025-06-21 10:23:48,464 - INFO - Found 0 article links
+2025-06-21 10:23:49,469 - INFO - Trying: https://www.livemint.com/search?q=ajax-engineering-limited-ipo
+2025-06-21 10:23:49,808 - INFO - Found 46 article links
+2025-06-21 10:23:57,605 - INFO - Trying: https://www.google.com/search?q=site:livemint.com ajax-engineering-limited-ipo
+2025-06-21 10:23:57,834 - INFO - Found 0 article links
+2025-06-21 10:23:58,839 - INFO - Found 0 articles from livemint
+2025-06-21 10:24:00,845 - INFO - Scraping economictimes for Ajax Engineering Limited
+2025-06-21 10:24:00,845 - INFO - Trying: https://economictimes.indiatimes.com/topic/ajax-engineering-limited
+2025-06-21 10:24:02,178 - INFO - Found 89 article links
+2025-06-21 10:24:07,479 - INFO - Trying: https://economictimes.indiatimes.com/markets/stocks/news?q=ajax-engineering-limited
+2025-06-21 10:24:07,738 - INFO - Found 161 article links
+2025-06-21 10:24:12,786 - INFO - Trying: https://www.google.com/search?q=site:economictimes.indiatimes.com ajax-engineering-limited
+2025-06-21 10:24:13,006 - INFO - Found 0 article links
+2025-06-21 10:24:14,011 - INFO - Trying: https://economictimes.indiatimes.com/topic/ajax-engineering
+2025-06-21 10:24:14,719 - INFO - Found 89 article links
+2025-06-21 10:24:20,069 - INFO - Trying: https://economictimes.indiatimes.com/markets/stocks/news?q=ajax-engineering
+2025-06-21 10:24:20,296 - INFO - Found 161 article links
+2025-06-21 10:24:24,764 - INFO - Trying: https://www.google.com/search?q=site:economictimes.indiatimes.com ajax-engineering
+2025-06-21 10:24:25,001 - INFO - Found 0 article links
+2025-06-21 10:24:26,007 - INFO - Trying: https://economictimes.indiatimes.com/topic/ajax-engineering-limited-ipo
+2025-06-21 10:24:27,084 - INFO - Found 132 article links
+2025-06-21 10:24:33,770 - INFO - Trying: https://economictimes.indiatimes.com/markets/stocks/news?q=ajax-engineering-limited-ipo
+2025-06-21 10:24:34,010 - INFO - Found 161 article links
+2025-06-21 10:24:38,833 - INFO - Trying: https://www.google.com/search?q=site:economictimes.indiatimes.com ajax-engineering-limited-ipo
+2025-06-21 10:24:39,067 - INFO - Found 0 article links
+2025-06-21 10:24:40,073 - INFO - Found 0 articles from economictimes
+2025-06-21 10:24:42,075 - INFO - Scraping business_standard for Ajax Engineering Limited
+2025-06-21 10:24:42,075 - INFO - Trying: https://www.business-standard.com/search?q=ajax-engineering-limited
+2025-06-21 10:24:50,610 - INFO - Trying: https://www.google.com/search?q=site:business-standard.com ajax-engineering-limited
+2025-06-21 10:24:50,851 - INFO - Found 0 article links
+2025-06-21 10:24:51,852 - INFO - Trying: https://www.business-standard.com/search?q=ajax-engineering
+2025-06-21 10:25:00,985 - INFO - Trying: https://www.google.com/search?q=site:business-standard.com ajax-engineering
+2025-06-21 10:25:01,219 - INFO - Found 0 article links
+2025-06-21 10:25:02,221 - INFO - Trying: https://www.business-standard.com/search?q=ajax-engineering-limited-ipo
+2025-06-21 10:25:10,521 - INFO - Trying: https://www.google.com/search?q=site:business-standard.com ajax-engineering-limited-ipo
+2025-06-21 10:25:10,758 - INFO - Found 0 article links
+2025-06-21 10:25:11,763 - INFO - Found 0 articles from business_standard
+2025-06-21 10:25:13,768 - INFO - Found 1 unique articles for Ajax Engineering Limited
+2025-06-21 10:25:13,777 - INFO - Saved 1 articles. Total: 1
+2025-06-21 10:25:13,958 - INFO - WebDriver closed
+2025-06-21 10:25:13,959 - INFO - Requests session closed
+2025-06-21 10:30:09,042 - INFO - Loaded 41 companies from /Users/shriya/Documents/GitHub/logo_detect/dsmlprojects222/List_IPO.csv
+2025-06-21 10:30:09,045 - INFO - Loaded news database with 1 articles
+2025-06-21 10:30:09,045 - INFO - Requests session closed
+2025-06-21 10:30:36,902 - INFO - Loaded 41 companies from /Users/shriya/Documents/GitHub/logo_detect/dsmlprojects222/List_IPO.csv
+2025-06-21 10:30:36,904 - INFO - Loaded news database with 1 articles
+2025-06-21 10:30:36,904 - INFO - Querying news for: Sanstar Limited
+2025-06-21 10:30:36,905 - INFO - Match found: {'COMPANY NAME': 'Sanstar Limited', 'SECURITY TYPE': 'EQ', 'ISSUE PRICE': 95, 'Symbol': 'SANSTAR', 'ISSUE START DATE': '19-JUL-2024', 'ISSUE END DATE': '23-JUL-2024', 'PRICE RANGE': 'Rs.90 to Rs.95', 'DATE OF LISTING': '26-JUL-2024', 'matched_query': 'Sanstar Limited', 'match_score': 1.0}
+2025-06-21 10:30:36,905 - INFO - Search terms: ['sanstar limited', 'sanstar', 'sanstar limited ipo']
+2025-06-21 10:30:36,905 - INFO - Scraping moneycontrol for Sanstar Limited
+2025-06-21 10:30:36,905 - INFO - Trying: https://www.moneycontrol.com/news/tags/sanstar-limited.html
+2025-06-21 10:30:37,365 - INFO - Found 90 article links
+2025-06-21 10:30:43,159 - INFO - Trying: https://www.moneycontrol.com/india/stockpricequote/sanstar-limited
+2025-06-21 10:30:44,094 - INFO - WebDriver initialized
+2025-06-21 10:30:57,311 - INFO - Trying: https://www.google.com/search?q=site:moneycontrol.com sanstar+limited news
+2025-06-21 10:30:58,111 - INFO - Found 0 article links
+2025-06-21 10:30:59,116 - INFO - Trying: https://www.moneycontrol.com/news/tags/sanstar.html
+2025-06-21 10:31:00,361 - INFO - Found 17 article links
+2025-06-21 10:31:04,473 - INFO - Trying: https://www.moneycontrol.com/news/tags/sanstar-limited-ipo.html
+2025-06-21 10:31:05,712 - INFO - Found 90 article links
+2025-06-21 10:31:09,139 - INFO - Found 2 articles from moneycontrol
+2025-06-21 10:31:11,141 - INFO - Scraping livemint for Sanstar Limited
+2025-06-21 10:31:11,141 - INFO - Trying: https://www.livemint.com/search?q=sanstar-limited
+2025-06-21 10:31:11,385 - INFO - Found 45 article links
+2025-06-21 10:31:15,636 - INFO - Trying: https://www.google.com/search?q=site:livemint.com sanstar+limited
+2025-06-21 10:31:15,871 - INFO - Found 0 article links
+2025-06-21 10:31:16,876 - INFO - Trying: https://www.livemint.com/search?q=sanstar
+2025-06-21 10:31:17,159 - INFO - Found 45 article links
+2025-06-21 10:31:21,251 - INFO - Trying: https://www.google.com/search?q=site:livemint.com sanstar
+2025-06-21 10:31:21,507 - INFO - Found 0 article links
+2025-06-21 10:31:22,512 - INFO - Trying: https://www.livemint.com/search?q=sanstar-limited-ipo
+2025-06-21 10:31:22,716 - INFO - Found 45 article links
+2025-06-21 10:31:28,248 - INFO - Trying: https://www.google.com/search?q=site:livemint.com sanstar+limited+ipo
+2025-06-21 10:31:28,463 - INFO - Found 0 article links
+2025-06-21 10:31:29,467 - INFO - Found 0 articles from livemint
+2025-06-21 10:31:31,469 - INFO - Scraping economictimes for Sanstar Limited
+2025-06-21 10:31:31,469 - INFO - Trying: https://economictimes.indiatimes.com/topic/sanstar-limited
+2025-06-21 10:31:31,908 - INFO - Found 113 article links
+2025-06-21 10:31:36,702 - INFO - Trying: https://economictimes.indiatimes.com/markets/stocks/news?q=sanstar-limited
+2025-06-21 10:31:37,199 - INFO - Found 163 article links
+2025-06-21 10:31:41,846 - INFO - Trying: https://www.google.com/search?q=site:economictimes.indiatimes.com sanstar+limited
+2025-06-21 10:31:42,093 - INFO - Found 0 article links
+2025-06-21 10:31:43,098 - INFO - Trying: https://economictimes.indiatimes.com/topic/sanstar
+2025-06-21 10:31:43,982 - INFO - Found 125 article links
+2025-06-21 10:31:48,293 - INFO - Trying: https://economictimes.indiatimes.com/markets/stocks/news?q=sanstar
+2025-06-21 10:31:48,532 - INFO - Found 163 article links
+2025-06-21 10:31:53,000 - INFO - Trying: https://www.google.com/search?q=site:economictimes.indiatimes.com sanstar
+2025-06-21 10:31:53,229 - INFO - Found 0 article links
+2025-06-21 10:31:54,234 - INFO - Trying: https://economictimes.indiatimes.com/topic/sanstar-limited-ipo
+2025-06-21 10:31:54,551 - INFO - Found 113 article links
+2025-06-21 10:31:59,180 - INFO - Trying: https://economictimes.indiatimes.com/markets/stocks/news?q=sanstar-limited-ipo
+2025-06-21 10:31:59,350 - INFO - Found 163 article links
+2025-06-21 10:32:03,642 - INFO - Trying: https://www.google.com/search?q=site:economictimes.indiatimes.com sanstar+limited+ipo
+2025-06-21 10:32:03,862 - INFO - Found 0 article links
+2025-06-21 10:32:04,867 - INFO - Found 0 articles from economictimes
+2025-06-21 10:32:06,867 - INFO - Scraping business_standard for Sanstar Limited
+2025-06-21 10:32:06,868 - INFO - Trying: https://www.business-standard.com/search?q=sanstar-limited
+2025-06-21 10:32:16,617 - INFO - Trying: https://www.google.com/search?q=site:business-standard.com sanstar+limited
+2025-06-21 10:32:16,856 - INFO - Found 0 article links
+2025-06-21 10:32:17,862 - INFO - Trying: https://www.business-standard.com/search?q=sanstar
+2025-06-21 10:32:26,373 - INFO - Trying: https://www.google.com/search?q=site:business-standard.com sanstar
+2025-06-21 10:32:26,610 - INFO - Found 0 article links
+2025-06-21 10:32:27,616 - INFO - Trying: https://www.business-standard.com/search?q=sanstar-limited-ipo
+2025-06-21 10:32:35,963 - INFO - Trying: https://www.google.com/search?q=site:business-standard.com sanstar+limited+ipo
+2025-06-21 10:32:36,193 - INFO - Found 0 article links
+2025-06-21 10:32:37,199 - INFO - Found 0 articles from business_standard
+2025-06-21 10:32:39,205 - INFO - Found 2 unique articles for Sanstar Limited
+2025-06-21 10:32:39,221 - INFO - Saved 2 articles. Total: 3
+2025-06-21 10:32:39,386 - INFO - WebDriver closed
+2025-06-21 10:32:39,387 - INFO - Requests session closed
+2025-06-21 11:22:46,123 - ERROR - [Errno 2] No such file or directory: 'List_IPO.csv'
+2025-06-21 11:22:46,128 - INFO - Loaded 3 existing news articles
+2025-06-21 11:23:17,964 - INFO - Loaded 41 companies
+2025-06-21 11:23:17,965 - INFO - Loaded 3 existing news articles
+2025-06-21 11:23:17,966 - INFO - Searching: https://www.moneycontrol.com/news/tags/ather-energy-earnings.html
+2025-06-21 11:23:25,717 - INFO - Searching: https://www.moneycontrol.com/india/stockpricequote/ather-energy-earnings
+2025-06-21 11:23:26,827 - INFO - WebDriver ready
+2025-06-21 11:23:41,073 - INFO - Searching: https://www.google.com/search?q=site:moneycontrol.com+ather+energy+earnings+news
+2025-06-21 11:23:44,491 - INFO - Google found 0 links
+2025-06-21 11:23:46,497 - INFO - Searching: https://www.moneycontrol.com/news/tags/ather-energy-limited-ipo.html
+2025-06-21 11:23:53,695 - INFO - Searching: https://www.moneycontrol.com/india/stockpricequote/ather-energy-limited-ipo
+2025-06-21 11:24:05,401 - INFO - Searching: https://www.google.com/search?q=site:moneycontrol.com+ather+energy+limited+IPO+news
+2025-06-21 11:24:07,934 - INFO - Google found 0 links
+2025-06-21 11:24:09,940 - INFO - Searching: https://www.moneycontrol.com/news/tags/ather-energy-market.html
+2025-06-21 11:24:16,502 - INFO - Searching: https://www.moneycontrol.com/india/stockpricequote/ather-energy-market
+2025-06-21 11:24:28,510 - INFO - Searching: https://www.google.com/search?q=site:moneycontrol.com+ather+energy+market+news
+2025-06-21 11:24:31,109 - INFO - Google found 0 links
+2025-06-21 11:24:33,114 - INFO - Searching: https://www.moneycontrol.com/news/tags/ather-energy-limited-stock.html
+2025-06-21 11:24:39,664 - INFO - Searching: https://www.moneycontrol.com/india/stockpricequote/ather-energy-limited-stock
+2025-06-21 11:24:52,621 - INFO - Searching: https://www.google.com/search?q=site:moneycontrol.com+ather+energy+limited+stock+news
+2025-06-21 11:24:55,281 - INFO - Google found 0 links
+2025-06-21 11:24:57,286 - INFO - Searching: https://www.moneycontrol.com/news/tags/ather-energy-limited-market.html
+2025-06-21 11:25:03,980 - INFO - Searching: https://www.moneycontrol.com/india/stockpricequote/ather-energy-limited-market
+2025-06-21 11:25:16,135 - INFO - Searching: https://www.google.com/search?q=site:moneycontrol.com+ather+energy+limited+market+news
+2025-06-21 11:25:18,675 - INFO - Google found 0 links
+2025-06-21 11:25:20,680 - INFO - Searching: https://www.moneycontrol.com/news/tags/ather-energy-limited.html
+2025-06-21 11:25:27,382 - INFO - Searching: https://www.moneycontrol.com/india/stockpricequote/ather-energy-limited
+2025-06-21 11:25:39,207 - INFO - Searching: https://www.google.com/search?q=site:moneycontrol.com+ather+energy+limited+news
+2025-06-21 11:25:41,792 - INFO - Google found 0 links
+2025-06-21 11:25:43,797 - INFO - Searching: https://www.moneycontrol.com/news/tags/ather-energy-ipo.html
+2025-06-21 11:25:50,541 - INFO - Searching: https://www.moneycontrol.com/india/stockpricequote/ather-energy-ipo
+2025-06-21 11:26:02,568 - INFO - Searching: https://www.google.com/search?q=site:moneycontrol.com+ather+energy+IPO+news
+2025-06-21 11:26:05,176 - INFO - Google found 0 links
+2025-06-21 11:26:07,181 - INFO - Searching: https://www.moneycontrol.com/news/tags/ather-energy-limited-earnings.html
+2025-06-21 11:26:13,543 - INFO - Searching: https://www.moneycontrol.com/india/stockpricequote/ather-energy-limited-earnings
+2025-06-21 11:26:25,205 - INFO - Searching: https://www.google.com/search?q=site:moneycontrol.com+ather+energy+limited+earnings+news
+2025-06-21 11:26:27,745 - INFO - Google found 0 links
+2025-06-21 11:26:29,750 - INFO - Searching: https://www.livemint.com/search?q=ather-energy-earnings
+2025-06-21 11:26:41,374 - INFO - Searching: https://www.google.com/search?q=site:livemint.com+ather+energy+earnings+news
+2025-06-21 11:26:43,993 - INFO - Google found 0 links
+2025-06-21 11:26:45,998 - INFO - Searching: https://www.livemint.com/search?q=ather-energy-limited-ipo
+2025-06-21 11:26:55,350 - INFO - Searching: https://www.google.com/search?q=site:livemint.com+ather+energy+limited+IPO+news
+2025-06-21 11:28:55,350 - ERROR - Google scrape error: HTTPConnectionPool(host='localhost', port=50149): Read timed out. (read timeout=120)
+2025-06-21 11:28:57,357 - INFO - Searching: https://www.livemint.com/search?q=ather-energy-market
+2025-06-21 11:30:59,336 - ERROR - HTTPConnectionPool(host='localhost', port=50149): Read timed out. (read timeout=120)
+2025-06-21 11:31:03,442 - INFO - Searching: https://www.google.com/search?q=site:livemint.com+ather+energy+market+news
+2025-06-21 11:33:03,443 - ERROR - Google scrape error: HTTPConnectionPool(host='localhost', port=50149): Read timed out. (read timeout=120)
+2025-06-21 11:33:05,449 - INFO - Searching: https://www.livemint.com/search?q=ather-energy-limited-stock
+2025-06-21 11:35:08,735 - ERROR - HTTPConnectionPool(host='localhost', port=50149): Read timed out. (read timeout=120)
+2025-06-21 11:35:12,939 - INFO - Searching: https://www.google.com/search?q=site:livemint.com+ather+energy+limited+stock+news
+2025-06-21 11:37:02,989 - INFO - Google found 0 links
+2025-06-21 11:37:04,995 - INFO - Searching: https://www.livemint.com/search?q=ather-energy-limited-market
+2025-06-21 11:37:15,126 - INFO - Searching: https://www.google.com/search?q=site:livemint.com+ather+energy+limited+market+news
+2025-06-21 11:37:17,703 - INFO - Google found 0 links
+2025-06-21 11:37:19,705 - INFO - Searching: https://www.livemint.com/search?q=ather-energy-limited
+2025-06-21 11:37:30,135 - INFO - Searching: https://www.google.com/search?q=site:livemint.com+ather+energy+limited+news
+2025-06-21 11:39:30,137 - ERROR - Google scrape error: HTTPConnectionPool(host='localhost', port=50149): Read timed out. (read timeout=120)
+2025-06-21 11:39:32,144 - INFO - Searching: https://www.livemint.com/search?q=ather-energy-ipo
+2025-06-21 11:41:34,451 - ERROR - HTTPConnectionPool(host='localhost', port=50149): Read timed out. (read timeout=120)
+2025-06-21 11:41:38,939 - INFO - Searching: https://www.google.com/search?q=site:livemint.com+ather+energy+IPO+news
+2025-06-21 11:43:38,941 - ERROR - Google scrape error: HTTPConnectionPool(host='localhost', port=50149): Read timed out. (read timeout=120)
+2025-06-21 11:43:40,948 - INFO - Searching: https://www.livemint.com/search?q=ather-energy-limited-earnings
+2025-06-21 11:45:33,882 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11d824b00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/643a4ea675bcceaeb4c826d9641ac820
+2025-06-21 11:45:33,885 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11d826e70>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/643a4ea675bcceaeb4c826d9641ac820
+2025-06-21 11:45:33,885 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11cb924e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/643a4ea675bcceaeb4c826d9641ac820
+2025-06-21 11:45:33,892 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
