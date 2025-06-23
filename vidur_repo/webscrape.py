@@ -26,7 +26,7 @@ class CompactNewsScraper:
         self.ipo_csv = os.getenv("IPO_CSV_PATH", "/Users/shriya/Documents/GitHub/logo_detect/dsmlprojects222/List_IPO.csv")
         self.news_csv = os.getenv("NEWS_CSV_PATH", "company_news.csv")
         self.max_articles = int(os.getenv("MAX_ARTICLES", 10))
-        self.deepseek_api_key = os.getenv("sk-2afc266809a24d1689cfb1e7c2abeb31")  # Add your DeepSeek API key
+        self.deepseek_api_key = os.getenv("DEEPSEEK_API_KEY")  # Add your DeepSeek API key
         self.deepseek_api_url = "https://api.deepseek.com/v1/chat/completions"
         self.driver = None
         self.session = requests.Session()
